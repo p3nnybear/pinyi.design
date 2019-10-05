@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* //////////////////////// */
+/* /// Proiject 3 - Daily UI Challenge //// */
+/* //////////////////////// */
+
+/*  Global Styling  */
+h4 p {
+  color:#3d3d3d;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+/*  Sections Styling  */
+.hero-container {
+  text-align: center;
+  padding-top: 4.25rem;
+  padding-bottom: 4.25rem;
+}
+
+.hero-container h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.project-description {
+  padding-bottom: 1.25rem;
+}
+
+.temp-holder {
+    height:400px;
+    background-color:#f8f8f8;
+}
+
+.challenge-day {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.sticky-info {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 17%;
+  }
+  
+a {
+  text-decoration: none;
+}
+
+
+
+/*  Medium & Up  */
+@media screen and (min-width: 40em) {
+
+}
+
+
+/*  Small Only  */
+@media screen and (max-width:39.9375em) {
+
+}
+
+  /*  Large & Up  */
+  @media screen and (min-width:64em) {
+  .section-footer {
+    margin-top: 2.5rem;
+  }
+}
+
+  @media screen and (max-width:39.9375em) {
+  }
+
+
+  /*  Small Screen  */
+  @media screen and (max-width: 39.9375em) {
+  }
+
+  /* Medium only */
+  @media screen and (max-width: 63.9375em) {
+  }
+
+  /*  Small & Medium Only  */
+  @media screen and (max-width: 63.9375em) {
+  }
+
+  /*  Large & Up  */
+  @media screen and (min-width: 64em) {
+   
+  }
+
+
+  /*  Font Sizes for Different Screens  */
+  /* ////////////////////////////////// */
+  /*  Small Screen only  */
+  @media screen and (max-width: 39.9375em) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  /*  Small & Medium Screens Only  */
+  @media screen and (max-width: 63.9375em) {
+    .section-header {
+      font-size: 2rem;
+    }
+  }
+
+
+
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
