@@ -66,12 +66,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #376AB5;
 }
 
+
 /*  Sections Styling  */
 
 .hero-container {
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .hero-container h1 {
@@ -293,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .personas-description ul li:before, .mvp-list li:before, .next-steps li:before, .testing-header+ul li:before {
-  content: '•';
+  /* content: '•'; */
   vertical-align: middle;
   display: inline-block;
   margin-top: -3px;
@@ -450,9 +451,9 @@ h1, h2, h3, h4, h5, h6 {
   .the-framework>img {
     padding: 0 0px;
   }
-  .section-challenge-2 div:nth-child(4) {
+  /* .section-challenge-2 div:nth-child(4) {
     text-align: center;
-  }
+  } */
   .challenge-3-box div:first-child {
     margin-top: 0rem;
   }
